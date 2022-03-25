@@ -1,0 +1,28 @@
+
+Id: 17
+Execution Stack: [print(readH(v1)), release(cnt)]
+Symbol Table: 
+cnt -> 1
+v1 -> (1, int)
+Output: 
+20
+19
+File Table: 
+Heap: 
+1 -> 400
+Semaphore Table: Model.Utilities.SemaphoreTable@1c34d00c
+
+Id: 17
+Execution Stack: [release(cnt)]
+Symbol Table: 
+cnt -> 1
+v1 -> (1, int)
+Output: 
+20
+19
+400
+File Table: 
+Heap: 
+1 -> 400
+Semaphore Table: Model.Utilities.SemaphoreTable@1c34d00c
+

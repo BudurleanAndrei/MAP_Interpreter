@@ -1,0 +1,16 @@
+
+Id: 10
+Execution Stack: [ref(int) v, (new(v, 20),(ref(ref(int)) a,(new(a, v),(new(v, 30),print(readH(readH(a)))))))]
+Symbol Table: 
+Output: 
+File Table: 
+Heap: 
+
+Id: 10
+Execution Stack: [(new(v, 20),(ref(ref(int)) a,(new(a, v),(new(v, 30),print(readH(readH(a)))))))]
+Symbol Table: 
+v -> (0, int)
+Output: 
+File Table: 
+Heap: 
+

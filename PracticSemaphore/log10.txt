@@ -1,0 +1,28 @@
+
+Id: 10
+Execution Stack: [print(readH(readH(a)))]
+Symbol Table: 
+a -> (2, ref(int))
+v -> (3, int)
+Output: 
+File Table: 
+Heap: 
+1 -> 20
+2 -> (1, int)
+3 -> 30
+Semaphore Table: Model.Utilities.SemaphoreTable@6669706a
+
+Id: 10
+Execution Stack: []
+Symbol Table: 
+a -> (2, ref(int))
+v -> (3, int)
+Output: 
+20
+File Table: 
+Heap: 
+1 -> 20
+2 -> (1, int)
+3 -> 30
+Semaphore Table: Model.Utilities.SemaphoreTable@6669706a
+

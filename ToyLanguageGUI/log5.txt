@@ -1,0 +1,95 @@
+
+Id: 5
+Execution Stack: [(int a,(int b,(a=5,(b=4,(if(a > b)then(print(a))else(print(b)))))))]
+Symbol Table: 
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: [int a, (int b,(a=5,(b=4,(if(a > b)then(print(a))else(print(b))))))]
+Symbol Table: 
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: [(int b,(a=5,(b=4,(if(a > b)then(print(a))else(print(b))))))]
+Symbol Table: 
+a -> 0
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: [int b, (a=5,(b=4,(if(a > b)then(print(a))else(print(b)))))]
+Symbol Table: 
+a -> 0
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: [(a=5,(b=4,(if(a > b)then(print(a))else(print(b)))))]
+Symbol Table: 
+a -> 0
+b -> 0
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: [a=5, (b=4,(if(a > b)then(print(a))else(print(b))))]
+Symbol Table: 
+a -> 0
+b -> 0
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: [(b=4,(if(a > b)then(print(a))else(print(b))))]
+Symbol Table: 
+a -> 5
+b -> 0
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: [b=4, (if(a > b)then(print(a))else(print(b)))]
+Symbol Table: 
+a -> 5
+b -> 0
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: [(if(a > b)then(print(a))else(print(b)))]
+Symbol Table: 
+a -> 5
+b -> 4
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: [print(a)]
+Symbol Table: 
+a -> 5
+b -> 4
+Output: 
+File Table: 
+Heap: 
+
+Id: 5
+Execution Stack: []
+Symbol Table: 
+a -> 5
+b -> 4
+Output: 
+5
+File Table: 
+Heap: 
+

@@ -1,0 +1,21 @@
+
+Id: 14
+Execution Stack: [b=true, (c?100:200,(print(c),(c?100:200,print(c))))]
+Symbol Table: 
+b -> false
+c -> 0
+Output: 
+File Table: 
+Heap: 
+Semaphore Table: Model.Utilities.SemaphoreTable@6d25a7f3
+
+Id: 14
+Execution Stack: [(c?100:200,(print(c),(c?100:200,print(c))))]
+Symbol Table: 
+b -> true
+c -> 0
+Output: 
+File Table: 
+Heap: 
+Semaphore Table: Model.Utilities.SemaphoreTable@6d25a7f3
+

@@ -1,0 +1,17 @@
+
+Id: 6
+Execution Stack: [fileClose(varf)]
+Symbol Table: 
+varf -> test.in
+Output: 
+File Table: 
+Heap: 
+
+Id: 6
+Execution Stack: []
+Symbol Table: 
+varf -> test.in
+Output: 
+File Table: 
+Heap: 
+

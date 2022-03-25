@@ -1,0 +1,20 @@
+
+Id: 2
+Execution Stack: [print(b)]
+Symbol Table: 
+a -> 17
+b -> 18
+Output: 
+File Table: 
+Heap: 
+
+Id: 2
+Execution Stack: []
+Symbol Table: 
+a -> 17
+b -> 18
+Output: 
+18
+File Table: 
+Heap: 
+

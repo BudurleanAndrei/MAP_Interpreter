@@ -1,0 +1,54 @@
+
+Id: 13
+Execution Stack: [print(v), print(readH(a))]
+Symbol Table: 
+a -> (1, int)
+v -> 10
+Output: 
+File Table: 
+Heap: 
+1 -> 22
+
+Id: 14
+Execution Stack: [fork((v=100,print(a))), (writeH(a, 30),(v=32,(print(v),print(readH(a)))))]
+Symbol Table: 
+a -> (1, int)
+v -> 10
+Output: 
+File Table: 
+Heap: 
+1 -> 22
+
+Id: 13
+Execution Stack: [print(readH(a))]
+Symbol Table: 
+a -> (1, int)
+v -> 10
+Output: 
+10
+File Table: 
+Heap: 
+1 -> 22
+
+Id: 14
+Execution Stack: [(writeH(a, 30),(v=32,(print(v),print(readH(a)))))]
+Symbol Table: 
+a -> (1, int)
+v -> 10
+Output: 
+10
+File Table: 
+Heap: 
+1 -> 22
+
+Id: 15
+Execution Stack: [(v=100,print(a))]
+Symbol Table: 
+a -> (1, int)
+v -> 10
+Output: 
+10
+File Table: 
+Heap: 
+1 -> 22
+

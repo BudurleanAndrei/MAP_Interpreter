@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Gui.MainWindow" prefHeight="400.0" prefWidth="600.0">
+    <GridPane>
+        <TableView fx:id="tableViewHeapTable" prefWidth="250.0" prefHeight="250.0"
+            GridPane.rowIndex="1" GridPane.columnIndex="1">
+            <columns>
+                <TableColumn fx:id="heapAddress" text="Address" prefWidth="125.0"/>
+                <TableColumn fx:id="heapValue" text="Value" prefWidth="125.0"/>
+            </columns>
+        </TableView>
+        <ListView fx:id="listViewOut" prefWidth="250.0" prefHeight="250.0"
+            GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+        <ListView fx:id="listViewFileTable" prefWidth="250.0" prefHeight="250.0"
+            GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+        <ListView fx:id="listViewProgramStates" prefWidth="250.0" prefHeight="250.0"
+            GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+        <TableView fx:id="tableViewSymbolTable" prefWidth="250.0" prefHeight="250.0"
+                   GridPane.rowIndex="2" GridPane.columnIndex="2">
+            <columns>
+                <TableColumn fx:id="symbolTableVariable" text="Variable" prefWidth="125.0"/>
+                <TableColumn fx:id="symbolTableValue" text="Value" prefWidth="125.0"/>
+            </columns>
+        </TableView>
+        <ListView fx:id="listViewExecutionStack" prefHeight="250.0" prefWidth="250.0"
+            GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+        <TextField fx:id="textFieldProgramStates" text="Number of program states: -" editable="false" prefWidth="250.0"
+            GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        <TableView fx:id="tableViewLatchTable" prefWidth="250.0" prefHeight="250.0"
+                   GridPane.rowIndex="3" GridPane.columnIndex="2">
+            <columns>
+                <TableColumn fx:id="latchTableLatch" text="Latch" prefWidth="125.0"/>
+                <TableColumn fx:id="latchTableCountdown" text="Countdown" prefWidth="125.0"/>
+            </columns>
+        </TableView>
+        <Button fx:id="buttonOneStep" text="Execute One Step" prefWidth="250.0"
+            GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+    </GridPane>
+</AnchorPane>

@@ -1,0 +1,20 @@
+
+Id: 3
+Execution Stack: [print(v)]
+Symbol Table: 
+a -> true
+v -> 2
+Output: 
+File Table: 
+Heap: 
+
+Id: 3
+Execution Stack: []
+Symbol Table: 
+a -> true
+v -> 2
+Output: 
+2
+File Table: 
+Heap: 
+

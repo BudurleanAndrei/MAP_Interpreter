@@ -1,0 +1,22 @@
+
+Id: 9
+Execution Stack: [print(readH(v)+5)]
+Symbol Table: 
+v -> (1, int)
+Output: 
+20
+File Table: 
+Heap: 
+1 -> 30
+
+Id: 9
+Execution Stack: []
+Symbol Table: 
+v -> (1, int)
+Output: 
+20
+35
+File Table: 
+Heap: 
+1 -> 30
+
